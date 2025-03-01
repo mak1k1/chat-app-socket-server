@@ -1,0 +1,37 @@
+{
+  "name": "chat-app-socket-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec 'ts-node src/index.ts'",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mak1k1/chat-app-socket-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mak1k1/chat-app-socket-server/issues"
+  },
+  "homepage": "https://github.com/mak1k1/chat-app-socket-server#readme",
+  "description": "",
+  "dependencies": {
+    "@clerk/backend": "^1.24.2",
+    "@prisma/client": "^6.4.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}
